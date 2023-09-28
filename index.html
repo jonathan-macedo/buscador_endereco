@@ -22,54 +22,48 @@
     </header>
     <main>
       <section>
-        <form>
-          <div>
-            <label for="cep">CEP</label>
-            <input type="text" id="cep" />
-          </div>
-          <button>Encontrar</button>
-        </form>
+        <div class="entryarea">
+          <input type="text" id="cep" required />
+          <div class="labelline">CEP</div>
+        </div>
+        <button>encontrar</button>
       </section>
       <section>
-        <div>
-          <label for="cep">CEP</label>
-          <input type="text" id="cep" />
+        <div class="entryarea">
+          <input type="text" id="logradouro" required />
+          <div class="labelline">Logradouro</div>
         </div>
-        <div>
-          <label for="logradouro">logradouro</label>
-          <input type="text" id="logradouro" />
+        <div class="entryarea">
+          <input type="text" id="bairro" required />
+          <div class="labelline">Bairro</div>
         </div>
-        <div>
-          <label for="bairro">bairro</label>
-          <input type="text" id="bairro" />
+        <div class="entryarea">
+          <input type="text" id="localidade" required />
+          <div class="labelline">Localidade</div>
         </div>
-        <div>
-          <label for="localidade">localidade</label>
-          <input type="text" id="localidade" />
+        <div class="entryarea">
+          <input type="text" id="complemento" required />
+          <div class="labelline">Complemento</div>
         </div>
-        <div>
-          <label for="complemento">complemento</label>
-          <input type="text" id="complemento" />
+        <div class="entryarea">
+          <input type="text" id="uf" required />
+          <div class="labelline">UF</div>
         </div>
-        <div>
-          <label for="uf">uf</label>
-          <input type="text" id="uf" />
-        </div>
-        <div>
-          <label for="ibge">ibge</label>
-          <input type="text" id="ibge" />
+        <div class="entryarea">
+          <input type="text" id="ibge" required />
+          <div class="labelline">IBGE</div>
         </div>
       </section>
     </main>
     <footer>
-      <div>
+      <div id="copywrite">
         <img
           src="assets/img/copywrite.svg"
           alt="Ícone de copywrite de direitos autorais"
         />
         <p>2023 - Jonathan Macedo Castro</p>
       </div>
-      <div>
+      <div id="icons-links">
         <a href="https://github.com/jonathan-macedo" target="_blank"
           ><img src="assets/img/github.svg" alt="Ícone do GitHub" /></a
         ><a
