@@ -1,0 +1,17 @@
+@import "../sass/_variables.scss";
+@import "../sass/components/header";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: $bg-primary;
+  font-family: $font-primary;
+}
+
+header,
+main,
+footer {
+  width: 85%;
+  margin: 3.25rem auto;
+}

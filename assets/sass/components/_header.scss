@@ -1,0 +1,19 @@
+header {
+  text-align: center;
+
+  h1 {
+    color: $title-color;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  p {
+    color: $text-color-primary;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 1rem;
+    width: 75%;
+    margin: auto;
+  }
+}

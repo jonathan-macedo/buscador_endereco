@@ -1,5 +1,32 @@
-*{
+header {
+  text-align: center;
+}
+header h1 {
+  color: #026100;
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+header p {
+  color: #04e000;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  width: 75%;
+  margin: auto;
+}
+
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  background: #c0ffbf;
+  font-family: Roboto, sans-serif;
 }
+
+header,
+main,
+footer {
+  width: 85%;
+  margin: 3.25rem auto;
+}/*# sourceMappingURL=style.css.map */
