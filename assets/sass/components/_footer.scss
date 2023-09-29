@@ -1,0 +1,25 @@
+footer {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-column-gap: 35rem;
+
+  div#copywrite {
+    display: flex;
+    align-items: center;
+    color: #02ad00;
+
+    p {
+      width: 100%;
+      padding: 0 1rem;
+      font-size: 16px;
+    }
+  }
+
+  div#icons-links {
+    a {
+      :nth-child(1) {
+        margin-right: 1rem;
+      }
+    }
+  }
+}
