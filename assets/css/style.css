@@ -16,6 +16,78 @@ header p {
   margin: auto;
 }
 
+main div.entryarea {
+  position: relative;
+  height: 80px;
+  line-height: 80px;
+}
+main div.entryarea input {
+  position: absolute;
+  width: 100%;
+  outline: none;
+  font-size: 1.2rem;
+  padding: 0 30px;
+  line-height: 80px;
+  border-radius: 10px;
+  border: 2px solid #f0ffff;
+  background: transparent;
+  transition: 0.2s ease;
+  z-index: 1111;
+}
+main div.entryarea input:focus,
+main div.entryarea input:valid {
+  color: #66ff00;
+  border: 4px solid #66ff00;
+}
+main div.entryarea input:focus + div.labelline,
+main div.entryarea input:valid + div.labelline {
+  color: #66ff00;
+  height: 30px;
+  line-height: 30px;
+  transform: translate(-15px, -16px) scale(0.88);
+  z-index: 1111;
+}
+main div.entryarea div.labelline {
+  position: absolute;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f0ffff;
+  padding: 0 25px;
+  margin: 0 20px;
+  transition: 0.7s ease;
+}
+main section#cep-pesquisa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section#cep-pesquisa div.entryarea {
+  width: 35%;
+  margin-right: 32px;
+}
+main section#cep-pesquisa button {
+  border: none;
+  cursor: pointer;
+  border-radius: 18px;
+  padding: 12px 20px;
+  color: #ffffff;
+  background: #02ad00;
+  font-size: 2em;
+}
+main section#cep-pesquisa button:hover {
+  transition: 0.6s ease;
+  background: #ffffff;
+  color: #02ad00;
+}
+main section#informacoes {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-auto-rows: 80px;
+  grid-column-gap: 2rem;
+  row-gap: 2rem;
+}
+
 * {
   padding: 0;
   margin: 0;
